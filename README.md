@@ -1,7 +1,7 @@
 # Blue-n-White
 ### Computer Vision, Visual Ambiguity, and Ceramic Materiality in Dutch Golden Age Painting
 
-> **Work in progress** — code and data accompanying a paper submitted to *magazén: International Journal for Digital and Public Humanities* (2026).
+> **Work in progress** 
 
 ---
 
