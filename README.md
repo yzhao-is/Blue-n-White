@@ -57,5 +57,4 @@ GitHub: [yzhao-is](https://github.com/yzhao-is)
 
 ## License
 
-Code: [MIT License](LICENSE)  
 Data: Rijksmuseum collection images are CC0. Please refer to the [Rijksmuseum data policy](https://data.rijksmuseum.nl/policy/) for full terms.
