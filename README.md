@@ -15,8 +15,8 @@ The research argues that CLIP's inability to reliably distinguish Chinese export
 
 ## Prototype Result
 
-![CLIP retrieval results showing top-ranked paintings containing blue-and-white ceramic objects](placeholder_clip_results.png)
-*Top-ranked paintings retrieved by CLIP zero-shot query across 150 Rijksmuseum Dutch Golden Age paintings. Willem Kalf's Still Life with a Chinese Bowl and Nautilus Cup (1662) scores highest in blind retrieval without metadata input.*
+![CLIP retrieval results showing top-ranked paintings containing blue-and-white ceramic objects](prototype_clip_results.jpg)
+*Top-ranked paintings retrieved by CLIP zero-shot query across 150 Rijksmuseum Dutch Golden Age paintings. A Still Life from an unknown artist with a Chinese vase scores highest in blind retrieval without metadata input.*
 
 ---
 
