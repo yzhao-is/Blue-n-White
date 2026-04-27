@@ -21,6 +21,7 @@ with 28 manually annotated ground-truth positives:
 - **CLIP zero-shot retrieval** using averaged text prompt embeddings
 - **Knowledge-augmented CLIP** augmenting the query with annotations from a 30-image knowledge base of reference paintings and ceramic photographs
 
+---
 
 ## Key finding
 
@@ -29,7 +30,11 @@ Knowledge-augmented CLIP with a painting-only knowledge base substantially outpe
 *Top-ranked paintings retrieved by Knowledge-augmented CLIP query across 150 Rijksmuseum Dutch Golden Age paintings. A Still Life from Pieter Gallis with a Chinese plate scores highest.*
 ![CLIP retrieval results](top1.webp)
 
+---
 
+## Demo
+An interactive demo is available on Hugging Face Spaces:
+👉 [https://huggingface.co/spaces/yzhao-is/Blue-n-White](https://huggingface.co/spaces/YangZhao2026/blue-n-white)
 ---
 
 ## Requirements
