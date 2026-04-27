@@ -27,7 +27,7 @@ with 28 manually annotated ground-truth positives:
 Knowledge-augmented CLIP with a painting-only knowledge base substantially outperforms both metadata search and zero-shot CLIP, without requiring specialist terminology from the user.
 
 *Top-ranked paintings retrieved by Knowledge-augmented CLIP query across 150 Rijksmuseum Dutch Golden Age paintings. A Still Life from Pieter Gallis with a Chinese plate scores highest.*
-![CLIP retrieval results](<img width="1422" height="398" alt="image" src="https://github.com/user-attachments/assets/78d04087-8fca-4670-be24-5a6811f4574a" />)
+![CLIP retrieval results](top1.webp)
 
 
 ---
