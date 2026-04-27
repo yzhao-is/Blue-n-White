@@ -1,6 +1,5 @@
 # Blue-n-White
-### Computer Vision, Visual Ambiguity, and Ceramic Materiality in Dutch Golden Age Painting
-
+### Beyond Keywords: Retrieving Blue-and-White Ceramics in Dutch Paintings with Knowledge-Augmented CLIP
 > **Work in progress** 
 
 ---
@@ -9,14 +8,27 @@
 
 This project uses [CLIP](https://github.com/openai/CLIP) (Contrastive Language-Image Pretraining) to systematically retrieve and analyse depictions of blue-and-white ceramic objects in Dutch Golden Age paintings from the [Rijksmuseum](https://data.rijksmuseum.nl) open-access collection.
 
-The research argues that CLIP's inability to reliably distinguish Chinese export porcelain from Delft imitations is not merely a technical limitation — it reflects a genuine epistemological condition: the painter's act of representation already translates the material differences between glazed earthenware and porcelain into pure visual sign, and digital image capture performs a further mediation. The model's failure at classification thus mirrors a historiographic problem inherent to the painted record itself.
+In the 17th century, the Dutch East India Company (VOC) imported large quantities
+of Chinese export porcelain. Japanese and Dutch potters soon produced visually
+near-identical imitations. All three types appear in Golden Age paintings, and even
+specialists struggle to distinguish them in painted form. Museum metadata often
+under-describes or misidentifies these objects, making keyword search unreliable.
 
----
+We compare three retrieval approaches on a dataset of 150 Rijksmuseum paintings
+with 28 manually annotated ground-truth positives:
 
-## Prototype Result
+- **Metadata keyword search** at three expertise levels (general, basic, expert)
+- **CLIP zero-shot retrieval** using averaged text prompt embeddings
+- **Knowledge-augmented CLIP** augmenting the query with annotations from a 30-image knowledge base of reference paintings and ceramic photographs
 
-![CLIP retrieval results showing top-ranked paintings containing blue-and-white ceramic objects](prototype_clip_results.jpg)
-*Top-ranked paintings retrieved by CLIP zero-shot query across 150 Rijksmuseum Dutch Golden Age paintings. A Still Life from an unknown artist with a Chinese vase scores highest in blind retrieval without metadata input.*
+
+## Key finding
+
+Knowledge-augmented CLIP with a painting-only knowledge base substantially outperforms both metadata search and zero-shot CLIP, without requiring specialist terminology from the user.
+
+*Top-ranked paintings retrieved by Knowledge-augmented CLIP query across 150 Rijksmuseum Dutch Golden Age paintings. A Still Life from Pieter Gallis with a Chinese plate scores highest.*
+![CLIP retrieval results](<img width="1422" height="398" alt="image" src="https://github.com/user-attachments/assets/78d04087-8fca-4670-be24-5a6811f4574a" />)
+
 
 ---
 
