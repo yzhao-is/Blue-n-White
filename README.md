@@ -8,11 +8,8 @@
 
 This project uses [CLIP](https://github.com/openai/CLIP) (Contrastive Language-Image Pretraining) to systematically retrieve and analyse depictions of blue-and-white ceramic objects in Dutch Golden Age paintings from the [Rijksmuseum](https://data.rijksmuseum.nl) open-access collection.
 
-In the 17th century, the Dutch East India Company (VOC) imported large quantities
-of Chinese export porcelain. Japanese and Dutch potters soon produced visually
-near-identical imitations. All three types appear in Golden Age paintings, and even
-specialists struggle to distinguish them in painted form. Museum metadata often
-under-describes or misidentifies these objects, making keyword search unreliable.
+In the 17th century, the Dutch East India Company (VOC) imported large quantities of Chinese export porcelain. 
+Chinese export porcelain ("Kraak"), Japanese early Imari ware, and Dutch Delft blue earthenware may share a similar visual design of blue-and-white decoration. When they appear in paintings, even specialists struggle to distinguish them. As a result, museum metadata often under-describes or misidentifies these objects, making keyword search unreliable.
 
 We compare three retrieval approaches on a dataset of 150 Rijksmuseum paintings
 with 28 manually annotated ground-truth positives:
