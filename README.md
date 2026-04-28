@@ -30,8 +30,10 @@ Knowledge-augmented CLIP with a painting-only knowledge base substantially outpe
 ---
 
 ## Demo
+
 An interactive demo is available on Hugging Face Spaces:
-👉 [https://huggingface.co/spaces/yzhao-is/Blue-n-White](https://huggingface.co/spaces/YangZhao2026/blue-n-white)
+👉 [demo](https://huggingface.co/spaces/YangZhao2026/blue-n-white)
+
 ---
 
 ## Requirements
@@ -55,10 +57,10 @@ Paintings are retrieved via the [Rijksmuseum Linked Art Search API](https://data
 
 ## Usage
 
-1. Open `blue_n_white.ipynb` in Google Colab
-2. Run cells sequentially
-3. Adjust `max_items` and CLIP prompts as needed
-
+1. Open `Blue_n_White_(main).ipynb` in Google Colab
+2. Upload the files in the `data` folder
+3. Run cells sequentially
+To apply the method to other images, refer to the `tools` directory.
 ---
 
 ## Author
